@@ -1,0 +1,97 @@
+
+#jogoVelha{
+    z-index: 99;
+    display: grid;
+    grid-template-columns: 3;
+    justify-content: center;
+}
+#secaoUm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#secaoDois{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#secaoTres{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#divisores{
+    background-color: black;
+    width: 1px;
+    height: 100px;
+}
+
+#divisoresContrario{
+    background-color: black;
+    width: 350px;
+    height: 1px;
+}
+
+.a{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: white;
+    border: solid;
+    border-color: white;
+}
+
+#tudo{
+    display: grid;
+    grid-template-columns: 3;
+    justify-content: center;
+}
+#placar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#espaco{
+    opacity: 0;
+    width: 100px;
+    height: 1px;
+}
+
+#botao{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+fieldset{
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#player{
+    color: white;
+}
+
+#placar{
+    color: white;
+}
+
+#titulo{
+    color: white;
+}

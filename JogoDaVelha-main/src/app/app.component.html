@@ -1,0 +1,47 @@
+<div id="tudo">
+<div id="titulo">
+    <h1>Joguinho</h1>
+</div>
+<div id="placar">
+  <h3>X - {{pontuaX}}</h3>
+  <h3>O - {{pontuaO}}</h3>
+</div>
+</div>
+<div id="jogoVelha" >
+  <fieldset>
+  <div id="secaoUm">
+    <div><button id="botaoUm" class="a" (click)="verificar(0)"><img src="{{lista[0]}}" width="50" height="50"></button> </div>
+    <div id="divisores"></div>
+    <div><button id="botaoDois" class="a" (click)="verificar(1)"><img src="{{lista[1]}}" width="50" height="50"></button></div>
+    <div id="divisores"></div>
+    <div><button id="botaoTres" class="a" (click)="verificar(2)"><img src="{{lista[2]}}" width="50" height="50"></button></div>
+  </div>
+  <div id="divisoresContrario"></div>
+  <div id="secaoDois">
+    <div><button id="botaoQuatro" class="a" (click)="verificar(3)"><img src="{{lista[3]}}" width="50" height="50"></button></div>
+    <div id="divisores"></div>
+    <div><button id="botaoCinco" class="a" (click)="verificar(4)"><img src="{{lista[4]}}" width="50" height="50"></button></div>
+    <div id="divisores"></div>
+    <div><button id="botaoSeis" class="a" (click)="verificar(5)"><img src="{{lista[5]}}" width="50" height="50"></button></div>
+  </div>
+  <div id="divisoresContrario"></div>
+  <div id="secaoTres">
+    <div><button id="botaoSete" class="a" (click)="verificar(6)"><img src="{{lista[6]}}" width="50" height="50"></button></div>
+    <div id="divisores"></div>
+    <div><button id="botaoOito" class="a" (click)="verificar(7)"><img src="{{lista[7]}}" width="50" height="50"></button></div>
+    <div id="divisores"></div>
+    <div><button id="botaoNove" class="a" (click)="verificar(8)"><img src="{{lista[8]}}" width="50" height="50"></button></div>
+  </div>
+</fieldset>
+</div>
+<div id="final">
+<div id="player">
+  <h1>
+    {{player}}
+  </h1>
+</div>
+<div id="espaco"></div>
+<div>
+  <button (click)="reiniciar()" id="botao">Reiniciar</button>
+</div>
+</div>
