@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  bolinha = 'https://w7.pngwing.com/pngs/377/369/png-transparent-letter-o-alphabet-letter-miscellaneous-monochrome-black-thumbnail.png'
+  bolinha = 'https://cdn-icons-png.flaticon.com/512/319/319248.png'
   xis =  'https://img.freepik.com/icones-gratis/x-simbolo_318-1407.jpg'
 
   rodada = 0;
